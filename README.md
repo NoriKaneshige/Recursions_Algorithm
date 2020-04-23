@@ -60,8 +60,8 @@ function factorial(num){
 }
 
 console.log(factorial(3)) // 6
-// insert fig_2
 ```
+![recursive_2](https://github.com/NoriKaneshige/Recursions_Algorithm/blob/master/recursive_2.png)
 
 > ## 5) helper_method_recursion: :wink: 
 > collectOddValues() below is not recursive and it calls an inner function, helper(), which is recuersive
@@ -89,8 +89,8 @@ function collectOddValues(arr){
 
 console.log(collectOddValues([1,2,3,4,5,6,7,8,9])) // [ 1, 3, 5, 7, 9 ]
 
-// insert fig_3
 ```
+![recursive_3](https://github.com/NoriKaneshige/Recursions_Algorithm/blob/master/recursive_3.png)
 
 > ## 6) collect_odds_pure_recursion: :wink:
 > pure recursive
