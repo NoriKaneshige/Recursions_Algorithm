@@ -1,7 +1,9 @@
 # Recursions_Algorithm
 
 
-// Iterative Version
+> ## 1)Iterative Version: :cry: 
+
+``` js
 function countDown(num){
     for(var i = num; i > 0; i--){
         console.log(i);
@@ -9,8 +11,10 @@ function countDown(num){
     console.log("All done!")
 }
 
+```
 
-// Recursive Version
+> ## 1)_1 Recursive Version: :wink: 
+``` js
 function countDown(num){
     if(num <= 0) {
         console.log("All done!");
@@ -24,9 +28,10 @@ countDown(3)
 // 3
 // 2
 // 1
+```
 
-
-// another recursive example
+> ## 2) another recursive example:laughing: 
+``` js
 function sumRange(num){
    if(num === 1) return 1; 
    return num + sumRange(num-1);
@@ -34,6 +39,8 @@ function sumRange(num){
 
 console.log(sumRange(4)) // 10
 // insert fig_1
+``` js
+
 
 // factorial_iterative way
 function factorial(num){
