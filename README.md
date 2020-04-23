@@ -40,7 +40,6 @@ function sumRange(num){
 console.log(sumRange(4)) // 10
 ```
 ![recursive_1](https://github.com/NoriKaneshige/Recursions_Algorithm/blob/master/recursive_1.png)
-
 > ## 3) factorial_iterative way: :wink: 
 ``` js
 function factorial(num){
